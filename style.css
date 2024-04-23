@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:wght@400;900&display=swap');
+
+h1 {
+  color: blue;
+  font-size: 45;
+  font-family: "Roboto" ;
+}
+
+
+body {
+  background-color: #F7FAFC;
+  font-family: "Nunito Sans", sans-serif;
+  color: black;
+  line-height: normal;
+}
+
+
+
+h2 {
+color: #3F38F2;
+font-size: 20;
+font-family: "Roboto";
+}
+
+a {
+  color: #3F38F2;
+  text-decoration:  none;
+}
+
+a:hover {
+  color:#3BC0F0
+}
+
+.card-white {
+  background-color: white;
+    width: 700px;
+    margin: 20px auto;
+    padding: 32;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+}
+
+
+.img-circle {
+  border-radius: 50px;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 0px 16px
+}
+
+.btn-blue {
+  background-color: #3F38F2;
+  color: white;
+  border-radius: 4px;
+  padding: 16px 24px;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: #3F38F2;
+  border-radius: 4px;
+  padding: 16px 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#intro p {
+margin-bottom: 40px;
+}
+
+#footer a {
+  font-size: 60px;
+}
+
+#my_job {
+  list-style: none;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
